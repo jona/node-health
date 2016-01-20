@@ -1,0 +1,23 @@
+{
+  "name": "node-health",
+  "version": "1.0.0",
+  "description": "Health route for node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jona/node-health.git"
+  },
+  "author": "Jonathan Morua",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "nock": "^3.1.0",
+    "sinon": "^1.17.2",
+    "supertest": "^1.1.0"
+  }
+}
